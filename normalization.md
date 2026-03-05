@@ -1,1 +1,1 @@
-<img src="./normalization/pulling.png" width="800" height="400">
+<img src="./diagram/pulling.png" width="800" height="400">
