@@ -9,13 +9,9 @@ Overview
 
 This project contains two main tasks:
 
-Enhancing Secure Data Exchange with Encoding Formats and Protocol Integration
-
-Analyzing and Normalizing a College Club Membership Table
-
 Task 1: Secure Data Exchange
-Description
 
+Description:
 In modern computing, secure data exchange is critical for emails, cloud services, and APIs. This task focuses on:
 
 Understanding encoding formats: ASCII, Base64, Hexadecimal, and URL encoding
@@ -24,7 +20,8 @@ Implementing encryption and secure transmission protocols: TLS, HTTPS, and SMTP 
 
 Ensuring integrity and confidentiality of data during transmission
 
-Key Features
+Key Features:
+
 Encoding Formats
 
 ASCII: Simple, lightweight, supports basic English characters
@@ -48,8 +45,8 @@ Real-World Example
 An email with attachments is encoded in Base64 and sent via SMTP over a TLS-encrypted channel. The receiver decrypts TLS to access the encoded message safely.
 
 Task 3: Club Membership Table Analysis and Normalization
-Description
 
+Description:
 The original club membership table combined multiple entities (Students, Clubs, Memberships), causing:
 
 Data redundancy
