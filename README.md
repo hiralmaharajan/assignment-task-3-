@@ -1,4 +1,4 @@
-# Secure Data Exchange & Database Normalization Project
+Secure Data Exchange & Database Normalization Project
 Author
 
 Hiral Maharjan
@@ -18,31 +18,30 @@ Description
 
 In modern computing, secure data exchange is critical for emails, cloud services, and APIs. This task focuses on:
 
-Understanding encoding formats: ASCII, Base64, Hexadecimal, and URL encoding.
+Understanding encoding formats: ASCII, Base64, Hexadecimal, and URL encoding
 
-Implementing encryption and secure transmission protocols: TLS, HTTPS, and SMTP over TLS (STARTTLS).
+Implementing encryption and secure transmission protocols: TLS, HTTPS, and SMTP over TLS (STARTTLS)
 
-Ensuring integrity and confidentiality of data during transmission.
+Ensuring integrity and confidentiality of data during transmission
 
 Key Features
-
 Encoding Formats
 
-ASCII: Simple, lightweight, supports basic English characters.
+ASCII: Simple, lightweight, supports basic English characters
 
-Base64: Encodes binary data into text for safe email transmission.
+Base64: Encodes binary data into text for safe email transmission
 
-Hexadecimal: Represents binary data as readable text for debugging and cryptography.
+Hexadecimal: Represents binary data as readable text for debugging and cryptography
 
-URL Encoding: Ensures safe web transmission by converting special characters.
+URL Encoding: Ensures safe web transmission by converting special characters
 
 Secure Protocols
 
-TLS: Encrypts communication between client and server, ensuring privacy and integrity.
+TLS: Encrypts communication between client and server, ensuring privacy and integrity
 
-HTTPS: Combines HTTP with TLS for secure web browsing.
+HTTPS: Combines HTTP with TLS for secure web browsing
 
-SMTP + STARTTLS: Secures email transmission using TLS encryption over SMTP.
+SMTP + STARTTLS: Secures email transmission using TLS encryption over SMTP
 
 Real-World Example
 
@@ -62,18 +61,17 @@ Update and deletion anomalies
 Database normalization was applied to improve structure and integrity.
 
 Normalization Steps
+1NF (First Normal Form)
 
-1NF (First Normal Form):
+Eliminated repeating groups and ensured atomic values
 
-Eliminated repeating groups and ensured atomic values.
+2NF (Second Normal Form)
 
-2NF (Second Normal Form):
+Removed partial dependencies by separating Students, Clubs, and Membership tables
 
-Removed partial dependencies by separating Students, Clubs, and Membership tables.
+3NF (Third Normal Form)
 
-3NF (Third Normal Form):
-
-Removed transitive dependencies by creating a separate Staff table for club mentors and rooms.
+Removed transitive dependencies by creating a separate Staff table for club mentors and rooms
 
 Benefits
 
@@ -89,7 +87,7 @@ E-R Diagram
 
 The E-R diagram shows relationships between Students, Clubs, Staff, and Membership tables.
 
-Many-to-Many relationship between Students and Clubs via Membership.
+Many-to-Many relationship between Students and Clubs via Membership
 
 SQL Operations Included
 
