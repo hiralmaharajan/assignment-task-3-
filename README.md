@@ -6,6 +6,21 @@ BSc Hons Ethical and Cyber Security
 Softwarica College of IT & E-commerce
 
 Overview
+## Project Structure
+
+```
+Normalisation-task-3/
+├── diagram
+├── Normalization.md
+├── README.md
+├── sqloperation.md
+├── dataflowdiagram.md
+└── erdiagram.md
+```
+## Quick Start
+```
+git clone https://github.com/hiralmaharajan/assignment-task-3-.git
+```
 
 This project contains two main tasks:
 
